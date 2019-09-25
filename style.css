@@ -811,9 +811,20 @@ mark {
   width: 800px;
 }
 
+/*MEDIA QUERIES!!!********************************************************/
+@media (min-width: 576px) {
 
 
+}
 
+@media (min-width: 768px) {
+
+}
+
+
+@media (min-width: 1200px) {
+
+}
 /*AR PHOTOBOOTH PROJECT*******************************************************/
 
 /*SECTION-1******************************************************************/
@@ -845,6 +856,20 @@ mark {
   z-index: 5;
 }
 
+#title-ar {
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  height: 100%;
+  width: 100%;
+  transform: translate(-50%);
+  font-family: helvetica, sans-serif;
+  line-height: 1.3rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  z-index: 4;
+}
 
 /*SECTION-2*******************************************************************/
 #ar-section-2 {
@@ -852,6 +877,59 @@ mark {
   width: 100%;
   position: relative;
   background-color: #0d70b5;
+}
+
+.col {
+  height: 100%;
+}
+
+#ar-s2-row {
+  height: 100%;
+}
+
+#ar-aim-container {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 50%;
+}
+.ar-bg-img-photo {
+  background-image: url("assets/ar-background-1-01.jpg");
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+}
+#ar-mockup {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 5;
+  width: 400px;
+}
+
+#ar-aim {
+  font-family: helvetica, sans-serif;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  color: #ffffff;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+#product-vision {
+  font-family: helvetica, sans-serif;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  color: #030032;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  font-style: italic;
 
 }
 
@@ -861,5 +939,221 @@ mark {
   width: 100%;
   position: relative;
   background-color: #030032;
+}
 
+#ar-ui-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+}
+
+#ar-ui-vid-v1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/*SECTION-4*******************************************************************/
+#ar-section-4 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #030032;
+}
+
+#ar-users-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+}
+
+/*SECTION-5*******************************************************************/
+#ar-section-5 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #030032;
+}
+
+#ar-users-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+}
+
+
+/*SECTION-6*******************************************************************/
+#ar-section-6 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #030032;
+}
+
+#ar-users-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+}
+
+
+/*SECTION-7*******************************************************************/
+#ar-section-7 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #030032;
+}
+
+#ar-users-4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+}
+
+/*SECTION-8*******************************************************************/
+#ar-section-8 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #030032;
+}
+
+
+
+/*SECTION-9*******************************************************************/
+#ar-section-9 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #030032;
+}
+#gradient-1 {
+  background-image: linear-gradient(#030032, #0d70b5);
+  height: 100%;
+}
+
+#ar-user-journey-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+}
+
+.ar-bg-persona-1 {
+  background-image: url("assets/persona-bg-01.jpg");
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+}
+
+/*SECTION-10*******************************************************************/
+#ar-section-10 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #030032;
+}
+
+/*#gradient-2 {
+  background-image: linear-gradient(#0d70b5, #030032);
+  height: 100%;
+}*/
+
+.ar-bg-persona-2 {
+  background-image: url("assets/persona-bg-02.jpg");
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+}
+
+#ar-user-journey-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+}
+
+/*MEDIA QUERIES!!!********************************************************/
+@media (min-width: 576px) {
+  #ar-video {height: 234px; width: 132px;}
+  #title-ar {top: 60px; font-size: 0.6rem;}
+  #ar-mockup {display: none;}
+  #ar-aim-container {top: 40px;}
+  #ar-ui-1 {width: 250px;}
+  #ar-ui-vid-v1 {height: 234px; width: 132px;}
+  #ar-users-1 {width: 500px;}
+  #ar-users-2 {width: 500px;}
+  #ar-users-3 {width: 500px;}
+  #ar-users-4 {width: 500px;}
+  #ar-user-journey-1 {width: 600px;}
+  #ar-user-journey-2 {width: 600px;}
+}
+
+@media (min-width: 768px) {
+  #ar-video {height: 234px; width: 132px;}
+  #title-ar {top: 60px; font-size: 0.6rem;}
+  #ar-mockup {display: none;}
+  #ar-aim-container {top: 40px;}
+  #ar-ui-1 {width: 250px;}
+  #ar-ui-vid-v1 {height: 234px; width: 132px;}
+  #ar-users-1 {width: 500px;}
+  #ar-users-2 {width: 500px;}
+  #ar-users-3 {width: 500px;}
+  #ar-users-4 {width: 500px;}
+  #ar-user-journey-1 {width: 600px;}
+  #ar-user-journey-2 {width: 600px;}
+}
+
+
+@media (min-width: 1024px) {
+  #ar-video {height: 468px; width: 264px;}
+  #title-ar {top: 50px; font-size: 0.8rem;}
+  #ar-mockup {display: none;}
+  #ar-aim-container {top: 200px;}
+  #ar-ui-1 {width: 450px;}
+  #ar-ui-vid-v1{height: 468px; width: 264px;}
+  #ar-users-1 {width: 800px;}
+  #ar-users-2 {width: 800px;}
+  #ar-users-3 {width: 800px;}
+  #ar-users-4 {width: 800px;}
+  #ar-user-journey-1 {width: 800px;}
+  #ar-user-journey-2 {width: 800px;}
+}
+
+@media (min-width: 1200px) {
+  #ar-video {height: 468px; width: 264px;}
+  #title-ar {top: 50px; font-size: 0.8rem;}
+  #ar-mockup {display: block;}
+  #ar-aim-container {top: 200px;}
+  #ar-ui-1 {width: 450px;}
+  #ar-ui-vid-v1{height: 468px; width: 264px;}
+  #ar-users-1 {width: 800px;}
+  #ar-users-2 {width: 800px;}
+  #ar-users-3 {width: 800px;}
+  #ar-users-4 {width: 800px;}
+  #ar-user-journey-1 {width: 800px;}
+  #ar-user-journey-2 {width: 800px;}
 }
