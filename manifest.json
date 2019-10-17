@@ -1,0 +1,7 @@
+{
+  "short_name": "KSPortfolio",
+  "name": "Karl Stobbs Portfolio",
+
+  "display": "standalone",
+  "orientation": "landscape"
+}

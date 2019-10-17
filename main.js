@@ -1,4 +1,4 @@
-let menuBtn = document.querySelector('#menu-icon');
+/*let menuBtn = document.querySelector('#menu-icon');
 let mainMenu = document.querySelector('#menu');
 let closeBtn = document.querySelector('#close-btn');
 
@@ -14,4 +14,4 @@ closeBtn.addEventListener('click', function() {
   mainMenu.style.opacity = "0";
   closeBtn.style.opacity = "0";
   closeBtn.style.visibility = "hidden";
-})
+})*/

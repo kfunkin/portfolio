@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible"content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <!--<link rel="manifest" href="manifest.json">-->
   </head>
 
   <body>
@@ -18,12 +19,22 @@
       </div>
 
     </div>-->
-    <div class="container-fluid no-padding">
+    <div class="container-fluid no-padding rotate-prompt" >
+      <div class="row no-gutters no-padding">
+        <div class="col-sm-12 no-padding">
+            <img id="please-rotate" src="assets/please-rotate-01.svg"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid no-padding" id="index-main-section">
       <div class="row h-50 no-gutters no-padding" id="row-1">
         <div class="col-sm-6">
-          <p id="intro-text">
-            UI/UX/graphic designer with an MA in Creative App Development from Falmouth University
-          </p>
+          <div id="intro-text-box">
+            <p id="intro-text">
+              UI/UX/graphic designer with an MA in Creative App Development from Falmouth University
+            </p>
+          </div>
           <img id="logo" class="img-responisve" src="assets/logo-01.svg"/>
           <img id="logo-blue" class="img-responsive" src="assets/logo-blue.svg"/>
           <img id="logo-pink" class="img-responsive" src="assets/logo-pink.svg"/>
@@ -44,7 +55,7 @@
           </div>
           <div class="col-sm-3" id="box-3">
             <a href="ar-photo.html">
-              <img id="ar-photo-thumb" src="assets/ar-photo-bg.jpg"/>
+              <img id="ar-photo-thumb" src="assets/ar-photobooth-thumb.jpg"/>
             </a>
           </div>
         </div>
@@ -60,6 +71,6 @@
 
       </div>
 
-      <script src="main.js"></script>
+      <!--<script src="main.js"></script>-->
   </body>
 </html>

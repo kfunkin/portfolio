@@ -6,22 +6,28 @@
     <meta http-equiv="X-UA-Compatible"content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <!--<link rel="manifest" href="manifest.json">-->
     <link href="https://vjs.zencdn.net/7.6.0/video-js.css" rel="stylesheet">
 
   </head>
 
   <body>
+    <div class="container-fluid no-padding rotate-prompt">
+      <div class="row no-gutters no-padding">
+        <div class="col-sm-12 no-padding">
+            <img id="please-rotate" src="assets/please-rotate-01.svg"/>
+        </div>
+      </div>
+    </div>
+  <div class="container-fluid no-padding" id="fmp-section-1">
     <a href="index.html"><img id="back-nav" src="assets/back-nav.svg"/></a>
-
-
-  <div class="container-fluid no-padding" id="section-1">
     <div class="row" id="s1-row">
-      <div class="col-sm-12">
+      <div class="col-sm-12 no-padding">
         <p id="title-fmp">
           <mark>MA Project: App As A Format To Release Music</mark>
         </p>
         <div class="bg-img-s1"></div>
-        
+
         <video id='fmp-video' class='video-js' controls preload='auto' width='468' height='264'data-setup='{}'>
           <source src='assets/full-app-walkthrough.mp4' type='video/mp4'>
         </video>
@@ -30,10 +36,10 @@
     </div>
   </div>
 
-  <div class="container-fluid" id="section-2">
+  <div class="container-fluid" id="fmp-section-2">
     <div class="row" id="s2-row">
-      <div class="col-sm-3"></div>
-      <div class="col-sm-6">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
         <img id="promo" src="assets/french-fries-promo-01.jpg"/>
         <p id="project-description">
           The aim of the project was to produce an app-album, exploring
@@ -42,20 +48,21 @@
           features original music and an interactive story, based on research
           on the subject of app-albums and music consumption. The project
           started as an observation of a lack of visual content in streaming.
+          Made with Illustrator, Photoshop, HTML, CSS and JavaScript.
         </p>
         <!--<img id="ff-logo" src="assets/french-fries-logo.svg"/>
         <p id="fmp-spec">
           <mark>Adobe Illustrator, Photoshop, HTML, CSS, JavaScript</mark>
         </p>-->
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-2">
 
       </div>
     </div>
 
   </div>
 
-  <div class="container-fluid" id="section-3">
+  <div class="container-fluid" id="fmp-section-3">
     <div class="row" id="s3-row">
 
       <div class="col-sm-12 no-padding">
@@ -65,7 +72,7 @@
     </div>
   </div>
 
-  <div class="container-fluid" id="section-4">
+  <div class="container-fluid" id="fmp-section-4">
     <div class="row" id="s4-row">
       <div class="col-sm-6 ">
         <img id="gurpreet-persona" src="assets/gurpreet-persona.jpg"/>
@@ -78,7 +85,7 @@
     </div>
   </div>
 
-  <div class="container-fluid" id="section-5">
+  <div class="container-fluid" id="fmp-section-5">
     <div class="row" id="s5-row">
       <div class="col-sm-3 ">
 
@@ -90,7 +97,7 @@
     </div>
   </div>
 
-  <div class="container-fluid" id="section-6">
+  <div class="container-fluid" id="fmp-section-6">
     <div class="row" id="s5-row">
       <div class="col-sm-12">
         <video id='beta-xd-video' class='video-js' controls preload='auto' width='452' height='264'data-setup='{}'>
@@ -103,14 +110,14 @@
     </div>
   </div>
 
-  <div class="container-fluid" id="section-7">
+  <div class="container-fluid" id="fmp-section-7">
     <div class="row" id="s7-row">
       <div class="col-sm-12">
         <video id='feel-real-video' class='video-js' controls preload='auto' width='468' height='264'data-setup='{}'>
           <source src='assets/feel-real-app-single-xd.mp4' type='video/mp4'>
         </video>
         <p id="feel-real-mockup-description">
-          Web-app-single prototype. The idea being, that the band would release a free single as a web-app,
+          Web-app-single prototype. The idea being that the band would release a free single as a web-app,
           prior to the album release. Created with Adobe XD and Illustrator.
         </p>
       </div>
@@ -126,5 +133,6 @@
 
 
     <script src='https://vjs.zencdn.net/7.6.0/video.js'></script>
+    <script src="main.js"></script>
   </body>
 </html>
