@@ -15,3 +15,43 @@ closeBtn.addEventListener('click', function() {
   closeBtn.style.opacity = "0";
   closeBtn.style.visibility = "hidden";
 })*/
+
+anime({
+  targets: '.craggz-alt',
+  opacity: [
+    /*{ value: 0, duration: 1000 },*/
+    //{ value: 0.5, duration: 500 },
+    { value: 1, duration: 1000 },
+    { value: 0.7, duration: 100 }
+  ],
+  delay: function(el, i, l){return i * 1100},
+  loop: true,
+  autoplay: true,
+  ease: 'easeInOutSine'
+});
+
+anime({
+  targets: '.logos',
+  opacity: [
+    /*{ value: 0, duration: 1000 },*/
+    //{ value: 0.5, duration: 500 },
+    { value: 1, duration: 3000 },
+    { value: 0.7, duration: 500 }
+  ],
+  delay: function(el, i, l){return i * 3000},
+  loop: true,
+  autoplay: true,
+  ease: 'easeInOutSine'
+});
+
+anime({
+  targets: '.various',
+  opacity: [
+    { value: 1, duration: 3000 },
+    { value: 0, duration: 500 }
+  ],
+  delay: function(el, i, l){return i * 3000},
+  loop: true,
+  autoplay: true,
+  ease: 'easeInOutSine'
+});
