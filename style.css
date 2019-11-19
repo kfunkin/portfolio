@@ -1105,7 +1105,7 @@ mark {
   top: 200px;
   left: 50%;
   transform: translate(-50%);
-  width: 50%;
+  width: 55%;
 }
 .ar-bg-img-photo {
   background-image: url("assets/ar-background-1-01.jpg");
@@ -1123,13 +1123,13 @@ mark {
   left: 50%;
   transform: translate(-50%);
   z-index: 5;
-  width: 400px;
+  width: 350px;
 }
 
 #ar-aim {
   font-family: helvetica, sans-serif;
   line-height: 1.5rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #ffffff;
   letter-spacing: 0.2rem;
   text-align: center;
@@ -1137,8 +1137,8 @@ mark {
 
 #product-vision {
   font-family: helvetica, sans-serif;
-  line-height: 2rem;
-  font-size: 1.5rem;
+  line-height: 1.8rem;
+  font-size: 1.3rem;
   color: #030032;
   letter-spacing: 0.2rem;
   text-align: center;
