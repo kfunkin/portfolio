@@ -190,9 +190,9 @@ mark {
 }
 
 
-#intro-text-box {
+/*#intro-text-box {
   position: absolute;
-  top: 10%;
+  top: 20%;
   left:51%;
   transform: translate(-50%);
   width: 50%;
@@ -204,7 +204,7 @@ mark {
   line-height: 1.5rem;
   font-size: 0.8rem;
   letter-spacing: 0.2rem;
-}
+}*/
 
 #main-section {
   position: relative;
