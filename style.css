@@ -46,44 +46,13 @@ mark {
 
 
 
-#menu-icon {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  width: 48px;
-  z-index: 10;
-}
-
-#menu {
-  height: 0;
-  width: 100%; /*change with JS*/
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: 0; /*change with JS*/
-  background-color: #231f20;
-  z-index: 11;
-  transition: 0.2s;
-  transition-timing-function: ease-in;
-}
-
 #menu-row {
   width: 100%;
   height: 100%;
   margin: 0;
 }
 
-#close-btn {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 48px;
-  z-index: 12;
-  transition: 0.5s;
-  transition-timing-function: ease-in;
-  opacity: 0;
-  visibility: hidden;
-}
+
 
 /*HOMEPAGE********************************************************************/
 
@@ -215,47 +184,28 @@ mark {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50% -50%);
-  z-index: 5;
-  transform: scale(0.4);
+  transform: translate(-50%);
+  z-index: 10;
+  /*transform: scale(0.4);*/
 }
 
-#logo-blue {
-  position: absolute;
-  top: 40%;
-  left: 40%;
-  z-index: 1;
-  mix-blend-mode: darken;
-  transform: scale(0.9);
-  opacity: 0.2;
-}
-
-#logo-pink {
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  z-index: 3;
-  transform: scale(0.5);
-  opacity: 0.2;
-}
 
 #intro-text-box {
   position: absolute;
-  top: 80%;
-  right: 24%;
-  width: 45%;
+  top: 10%;
+  left:51%;
+  transform: translate(-50%);
+  width: 50%;
 }
 
 #intro-text {
-  /*position: absolute;
-  top: 80%;
-  right: 24%;*/
-  text-align: right;
+  text-align: left;
   font-family: helvetica, sans-serif;
   line-height: 1.5rem;
   font-size: 0.8rem;
   letter-spacing: 0.2rem;
 }
+
 #main-section {
   position: relative;
   display: block;
