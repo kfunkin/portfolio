@@ -57,6 +57,4 @@ anime({
 });
 
 
-//play video on Safari browser
 
-document.getElementById('.walkthrough').play();
