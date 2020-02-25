@@ -55,3 +55,8 @@ anime({
   autoplay: true,
   ease: 'easeInOutSine'
 });
+
+
+//play video on Safari browser
+
+document.getElementById('.walkthrough').play();
